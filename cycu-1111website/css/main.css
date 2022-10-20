@@ -6,6 +6,18 @@
   box-sizing: border-box;
   font-family: 'Noto Sans TC', 'Noto Sans', sans-serif;
 }
-body{
+html{
   background-color: #eee;
+}
+body{
+  width: 1200px;
+  margin: auto;
+  padding-top: 60px;
+}
+.main-footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ccc;
+  color: #333;
 }
