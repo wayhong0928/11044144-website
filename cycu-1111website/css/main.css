@@ -6,3 +6,6 @@
   box-sizing: border-box;
   font-family: 'Noto Sans TC', 'Noto Sans', sans-serif;
 }
+body{
+  background-color: #eee;
+}
