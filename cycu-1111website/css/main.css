@@ -12,7 +12,6 @@ html{
 body{
   width: 1200px;
   margin: auto;
-  padding-top: 60px;
 }
 /* footer */
 .main-footer {
@@ -34,5 +33,6 @@ body{
 }
 .main-footer a:hover{
   color: #888;
+  font-weight: 900;
   transform: translateY(-5px);
 }

@@ -1,0 +1,25 @@
+.aboutme {
+    background-color: #e0ded2;
+    border-radius: 50px;
+    padding: 50px;
+  }
+  .aboutme .aboutme-section {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .aboutme .aboutme-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+  }
+  .aboutme .aboutme-section ul {
+    list-style: none;
+    line-height: 2;
+    font-weight: 500;
+  }
+  .aboutme .aboutme-section p {
+    margin-top: 20px;
+    border-right: 3px solid #333;
+    border-left: 3px solid #333;
+  }

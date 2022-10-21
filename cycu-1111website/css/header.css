@@ -1,11 +1,12 @@
 .main-header{
-  background-color:  rgba(200,200,200, 0.8);
+  background-color:  #ccc;
+  opacity: 0.8;
   padding: 10px;
   width: 1200px;
   height: 50px;
   margin: auto;
   position: fixed;
-  top: 0;
+  border-radius: 10px;
 }
 .main-header .header-nav {
   display: flex;
@@ -14,6 +15,8 @@
 }
 .main-header .header-nav a {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
   color: #333;
   padding: 5px 1em;
   transform: translateY(0px);
@@ -30,6 +33,7 @@
   transition: 0.3s;
 }
 .main-header .header-nav a:hover {
+  font-weight: 700;
   transform: translateY(-5px);
 }
 .main-header .header-nav a:hover::after {
