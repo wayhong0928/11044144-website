@@ -29,20 +29,20 @@
 .aboutme .aboutme-section {
   width: 40%;
   height: 200px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .aboutme .aboutme-section ul {
   text-align: justify;
   list-style: none;
   line-height: 2.5;
   font-weight: 500;
-  margin-left: 20px;
 }
 .aboutme .aboutme-section .first-content{
   margin-top: -10px;
 }
 .aboutme .aboutme-section .second-content{
   padding-top: 20px;
+  font-size: 16px;
 }
 .aboutme .aboutme-section .aboutme-link{
   padding: 5px;
@@ -64,6 +64,7 @@
   font-size: 18px;
   margin-top: 40px;
   padding: 20px;
+  font-weight: 500;
   border-right: 3px solid #333;
   border-left: 3px solid #333;
   transform: scale(1);
@@ -71,6 +72,9 @@
 }
 .aboutme .aboutme-motto:hover{
   font-size: 24px;
+  font-weight: 700;
+  border-right: 5px solid #333;
+  border-left: 5px solid #333;
   transform: scale(1.05);
   transition: 0.5s;
 }
