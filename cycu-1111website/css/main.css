@@ -11,7 +11,17 @@ body{
 }
 .gap {
   width: 100%;
-  height: 100px;
+  height: 180px;
+}
+#about{
+  height: 120px;
+}
+.gap h1{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 20px;
 }
 .wrap {
   width: 1200px;

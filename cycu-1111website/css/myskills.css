@@ -1,0 +1,63 @@
+.myskills{
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 5px 5px #ccc;
+    border-radius: 50px;
+}
+.myskills .skills-item{
+    display: flex;
+    position: relative;
+    width: 25%;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px #aaa;
+    transform: translateY(0px);
+    transition: 0.5s;
+}
+.skills-item:hover{
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+.skills-item img{
+    width: 100%;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.skills-item .skills-text{
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+}
+.skills-item:hover .skills-text{
+    opacity: 1;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+/* 效果線條 */
+.skills-text h3{
+    font-size: 20px;
+    color: #ff0;
+    font-weight: 500;
+}
+.skills-text h3::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin: 10px 0;
+    background-color: #ff0;
+    transition: 0.5s 0.3s;
+}
+.skills-item:hover h3::after{
+    width: 100%;
+}
+.skills-text p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
