@@ -20,14 +20,10 @@
   box-shadow: 5px 5px 5px 5px #aaa;
   transition: 0.5s;
 }
-.aboutme  h2 {
+.aboutme  h1 {
   position: absolute;
   top: 120px;
   right: 170px;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 20px;
-  text-shadow: 3px 3px 3px #999;
 }
 .aboutme-section {
   width: 40%;
