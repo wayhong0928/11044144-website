@@ -25,35 +25,35 @@
   top: 120px;
   right: 170px;
 }
-.aboutme-section {
+.aboutme-article {
   width: 40%;
   height: 200px;
   margin-left: 40px;
 }
-.aboutme-section ul {
+.aboutme-article ul {
   text-align: justify;
   list-style: none;
   line-height: 2.5;
   font-weight: 500;
 }
-.aboutme-section .first-content{
+.aboutme-article .first-content{
   margin-top: -10px;
 }
-.aboutme-section .first-content strong{
+.aboutme-article .first-content strong{
   color: #333;
 }
-.aboutme-section .first-content strong a{
+.aboutme-article .first-content strong a{
   color:#333 ;
   text-decoration: none;
   font-size: 16px;
   transition: 0.3s;
 }
-.aboutme-section .first-content strong a:hover{
+.aboutme-article .first-content strong a:hover{
   color: #e33;
   font-size: 20px;
   transition: 0.3s;
 }
-.aboutme-section .second-content{
+.aboutme-article .second-content{
   font-size: 18px;
   padding-top: 20px;
   font-weight: 600;
@@ -62,7 +62,7 @@
   color: #333;
   transition: 0.5s;
 }
-.aboutme-section .second-content:hover{
+.aboutme-article .second-content:hover{
   padding-top: 18px;
   font-size: 20px;
   color: rgb(22, 82, 155);

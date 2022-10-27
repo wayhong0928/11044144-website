@@ -25,25 +25,42 @@
     transition: 0.5s;
 }
 .skills-item img{
-    width: 100%;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
     vertical-align: middle;
 }
-.skills-item .skills-text{
+.skills-item .skills-text,
+.skills-item .drop-text{
     position: absolute;
-    top: 0;right: 0;bottom: 0;left: 0;
+    right: 0;bottom: 0;left: 0;
     padding: 20px;
-    background-color: rgba(0,0,0,0.6);
     border-radius: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: 0.5s;
+}
+.skills-item .skills-text{
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
     opacity: 0;
 }
 .skills-item:hover .skills-text{
     opacity: 1;
     border-radius: 20px;
     transition: 0.5s;
+}
+.skills-item .drop-text{
+    top: 50%;
+    z-index: -1;
+    transform: translateY(0px);
+    transition: 0.5s;
+}
+.skills-item:hover .drop-text{
+    z-index: 1;
+    transition: 0.5s;
+    transform: translateY(150px);
 }
 /* 效果線條 */
 .skills-text h3{
