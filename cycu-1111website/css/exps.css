@@ -30,7 +30,6 @@
   font-weight: 700;
   font-size: 32px;
   letter-spacing: 30px;
-  line-height: 2.25;
   color: #efefef;
   text-shadow: 3px 3px 3px #ccc;
   transform: scale(1);
@@ -107,21 +106,23 @@
   letter-spacing: 10px;
   border-bottom: 1px solid #333;
   margin-bottom: 20px;
+  transform: scale(1);
   transition: 0.5s;
 }
 .exps-item .exps-text:hover h2{
   font-size: 32px;
+  transform: scale(1.05);
   transition: 0.5s;
 }
 .exps-item p {
   text-align: justify;
   font-weight: 500;
   color: #333;
-  font-size: 18px;
+  transform: scale(1);
   transition: 0.5s;
 }
 .exps-item .exps-text:hover P{
-  font-size: 20px;
+  transform: scale(1.05); 
   transition: 0.5s;
 }
 .exps-item > :first-child {
