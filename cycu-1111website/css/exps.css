@@ -9,13 +9,15 @@
   box-shadow: 5px 5px 10px 10px #ccc;
 }
 #exps .title{
-  display: flex;
   position: relative;
   width: 100%;
   height: 140px;
 }
 #exps .title span{
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 20px;
   left: -60px;
   width: 600px;
@@ -25,9 +27,6 @@
   border-bottom-left-radius: 0; 
 }
 #exps .title span i{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 700;
   font-size: 32px;
   letter-spacing: 30px;
@@ -39,6 +38,7 @@
 }
 #exps .title span i:hover{
   transform: scale(1.2);
+  letter-spacing: 40px;
   transition: 0.5s;
 }
 #exps .title span::before{

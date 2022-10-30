@@ -2,7 +2,7 @@
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color:  #efefef;
   position: fixed;
@@ -25,6 +25,10 @@
   transform: translateY(0px);
   transition: 0.3s;
 }
+.main-header .header-nav a:hover {
+  font-weight: 700;
+  transform: translateY(-5px);
+}
 .main-header .header-nav a::after {
   content: "";
   position: absolute;
@@ -34,10 +38,6 @@
   height: 0;
   border-bottom: 1px solid #333;
   transition: 0.3s;
-}
-.main-header .header-nav a:hover {
-  font-weight: 700;
-  transform: translateY(-5px);
 }
 .main-header .header-nav a:hover::after {
   left: 0%;
