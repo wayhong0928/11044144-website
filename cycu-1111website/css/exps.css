@@ -2,10 +2,65 @@
   width: 1200px;
   height: 100%;
   display: block;
+  background-color: #F5EFE6;
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 10px 10px #ccc;
 }
-#exps h1{
-    text-align: center;
-    padding-bottom: 50px;
+#exps .title{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+#exps .title span{
+  position: absolute;
+  top: 20px;
+  left: -60px;
+  width: 600px;
+  height: 80px;
+  background-color: #aaa;
+  border-radius: 100px;
+  border-bottom-left-radius: 0; 
+}
+#exps .title span i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 30px;
+  line-height: 2.25;
+  color: #efefef;
+  text-shadow: 3px 3px 3px #ccc;
+  transform: scale(1);
+  transition: 0.5s;
+}
+#exps .title span i:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+#exps .title span::before{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 40px;
+  height: 60px;
+  background-color: #666;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#exps .title span::after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 40px;
+  height: 30px;
+  z-index: -2;
+  background-color: #aaa;
 }
 .exps-item {
   display: flex;
@@ -14,40 +69,61 @@
 }
 .exps-item .pic {
   width: 55%;
-  /* 不可以壓縮精美的圖片:) */
-  flex-shrink: 0;
 }
 .exps-item .pic img {
   width: 100%;
   vertical-align: middle;
+  border-radius: 50px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.exps-item .pic img:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  border-radius: 50px;
+  box-shadow: 0 0 5px 5px #aaa;
 }
 .exps-item .exps-text {
   width: 55%;
-  flex-shrink: 0;
+  background-color:rgba(232, 223, 202,0.6);
   padding: 50px 30px;
   text-align: center;
-  position: relative;
   z-index: 1;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.exps-item .exps-text:hover{
+  transform: scale(1.05);
+  background-color:rgba(232, 223, 202,1);
+  border: 1px solid #333;
+  transition: 0.5s;
 }
 .exps-item h2 {
+  color: #333;
   font-weight: 700;
+  font-size: 28px;
   padding-bottom: 20px;
+  letter-spacing: 10px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.exps-item .exps-text:hover h2{
+  font-size: 32px;
+  transition: 0.5s;
 }
 .exps-item p {
+  text-align: justify;
   font-weight: 500;
+  color: #333;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.exps-item .exps-text:hover P{
+  font-size: 20px;
+  transition: 0.5s;
 }
 .exps-item > :first-child {
   margin-right: -10%;
-}
-.exps-item:nth-child(1) .exps-text {
-  background-color: #00f;
-}
-.exps-item:nth-child(2) .exps-text {
-  background-color: #f00;
-}
-.exps-item:nth-child(3) .exps-text {
-  background-color: #0f0;
-}
-.exps-item:nth-child(4) .exps-text {
-  background-color: #ff0;
 }
