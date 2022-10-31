@@ -73,6 +73,7 @@
   width: 100%;
   vertical-align: middle;
   border-radius: 50px;
+  box-shadow: 0 0 3px 3px #aaa;
   transform: scale(1);
   transition: 0.5s;
 }
