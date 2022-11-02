@@ -15,12 +15,12 @@
     display: flex;
     justify-content: space-around;
   }
-  .main-footer .footer-link i{
+  .main-footer .footer-link img{
     color: #666;
     transform: scale(1);
     transition: 0.5s;
   }
-  .main-footer .footer-link i:hover{
+  .main-footer .footer-link img:hover{
     transform: scale(1.5);
     transition: 0.5s;
     color: #333;
