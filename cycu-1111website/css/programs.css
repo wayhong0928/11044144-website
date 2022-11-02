@@ -39,17 +39,19 @@
     left: 0;
     width: 10px;
     height: 10px;
-    background-color: #000;
-    z-index: -1;
-    box-shadow: 150px -150px #000;
+    background-color: #ccc;
+    z-index: 1;
+    box-shadow: 290px -230px #ccc;
 }
 .programs .bar{
-    width: 50%;
+    width: 40%;
 }
 .bar .scroll{
     text-align: right;
     padding: 10px 0;
+    margin-bottom: 20px;
     color: #333;
+    border-radius: 20px;
 }
 .bar .html-bar{
     width: 5%;
@@ -102,4 +104,11 @@
     to{
         width: 60%;
     }
+}
+.programs .text{
+    width: 40%;
+}
+.programs .text li{
+    padding: 15px 0;
+    margin-bottom: 15px;
 }
