@@ -1,91 +1,90 @@
 .myskills{
-    background-color: antiquewhite;
-    box-shadow: 3px 3px 5px 5px #ccc;
-    border-radius: 50px;
-    position: relative;
+  background-color: #EEEADA;
+  box-shadow: 3px 3px 5px 5px #ccc;
+  position: relative;
 }
 .myskills h1{
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    font-size: 40px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  font-size: 40px;
 }
 .myskills .skills-item{
-    display: flex;
-    position: relative;
-    width: 25%;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 4px 4px #aaa;
-    transform: translateY(0px);
-    transition: 0.5s;
+  display: flex;
+  position: relative;
+  width: 25%;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 4px #aaa;
+  transform: translateY(0px);
+  transition: 0.5s;
 }
 .skills-item:hover{
-    transform: translateY(-50px);
-    transition: 0.5s;
+  transform: translateY(-50px);
+  transition: 0.5s;
 }
 .skills-item img{
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  vertical-align: middle;
 }
 .skills-item .skills-text,
 .skills-item .drop-text{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    border-radius: 20px;
-    letter-spacing: 2px;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: 0.5s;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
 }
 .skills-item .skills-text{
-    top: 0;
-    background-color: rgba(0,0,0,0.6);
-    opacity: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
 }
 .skills-item:hover .skills-text{
-    opacity: 1;
-    border-radius: 20px;
-    transition: 0.5s;
+  opacity: 1;
+  border-radius: 20px;
+  transition: 0.5s;
 }
 .skills-item .drop-text{
-    top: 50%;
-    z-index: -1;
-    transform: translateY(0px);
-    transition: 0.5s;
+  top: 50%;
+  z-index: -1;
+  transform: translateY(0px);
+  transition: 0.5s;
 }
 .skills-item:hover .drop-text{
-    z-index: 1;
-    transition: 0.5s;
-    transform: translateY(150px);
+  z-index: 1;
+  transition: 0.5s;
+  transform: translateY(150px);
 }
 /* 效果線條 */
 .skills-text h3{
-    font-size: 20px;
-    color: #ff0;
-    font-weight: 500;
+  font-size: 20px;
+  color: #ff0;
+  font-weight: 500;
 }
 .skills-text h3::after{
-    content: "";
-    display: block;
-    width: 0%;
-    height: 2px;
-    margin: 10px 0;
-    background-color: #ff0;
-    transition: 0.5s 0.3s;
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #ff0;
+  transition: 0.5s 0.3s;
 }
 .skills-item:hover h3::after{
-    width: 100%;
+  width: 100%;
 }
 .skills-text p{
-    font-size: 16px;
-    color: #fff;
-    font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
 }
