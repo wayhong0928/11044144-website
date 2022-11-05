@@ -22,7 +22,7 @@
     content: "程式技能";
     width: 150%;
     height: 60px;
-    background-color: #ccc;
+    background-color: #aaa;
     transform: rotate(-40deg)  translateY(-20px);
     line-height: 1.75;
     font-size: 32px;
@@ -39,23 +39,27 @@
     left: 0;
     width: 10px;
     height: 10px;
-    background-color: #ccc;
+    background-color: #aaa;
     z-index: 1;
-    box-shadow: 290px -230px #ccc;
+    box-shadow: 290px -230px #aaa;
 }
 .programs .bar{
     width: 40%;
 }
+.bar li p{
+    padding-left: 50px;
+    color: #333;
+}
 .bar .scroll{
     text-align: right;
-    padding: 10px 0;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin: 15px 0;
     color: #333;
     border-radius: 20px;
 }
 .bar .html-bar{
     width: 5%;
-    background-color: #0f0;
+    background-color: #dacdaa;
     animation: html-bar 5s infinite;
 }
 @keyframes html-bar{
@@ -66,22 +70,10 @@
         width: 80%;
     }
 }
-.bar .css-bar{
-    width: 5%;
-    background-color: #0f0;
-    animation: css-bar 5s infinite;
-}
-@keyframes css-bar{
-    from{
-        width: 5%;
-    }
-    to{
-        width: 70%;
-    }
-}
+
 .bar .py-bar{
     width: 5%;
-    background-color: #0f0;
+    background-color: #dacdaa;
     animation: py-bar 5s infinite;
 }
 @keyframes py-bar{
@@ -92,9 +84,22 @@
         width: 65%;
     }
 }
+.bar .c-bar{
+    width: 5%;
+    background-color: #dacdaa;
+    animation: c-bar 5s infinite;
+}
+@keyframes c-bar{
+    from{
+        width: 5%;
+    }
+    to{
+        width: 65%;
+    }
+}
 .bar .java-bar{
     width: 5%;
-    background-color: #0f0;
+    background-color: #dacdaa;
     animation: java-bar 5s infinite;
 }
 @keyframes java-bar{
@@ -105,10 +110,13 @@
         width: 60%;
     }
 }
+
 .programs .text{
     width: 40%;
+    margin-top: 20px;
 }
 .programs .text li{
-    padding: 15px 0;
-    margin-bottom: 15px;
+    text-align: justify;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
