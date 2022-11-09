@@ -1,19 +1,13 @@
-.programs{
-  background-color: #EEEADA;
-  box-shadow: 3px 3px 5px 5px #ccc;
-  position: relative;
-}
 .programs .title{
   position: absolute;
-  width: 300px;
-  height: 250px;
-  border-radius: 20px;
-  position: absolute;
-  top: -20px;
-  left: -20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  top: -20px;
+  left: -20px;
   overflow: hidden;
 }
 .programs .title::before{
@@ -57,24 +51,26 @@
   border-radius: 20px;
 }
 
-.bar .html-bar{
+.html-bar, .py-bar, .c-bar, .java-bar{
   width: 5%;
   background-color: #dacdaa;
-  animation: html-bar 5s infinite;
+  animation: 5s infinite;
+}
+
+.html-bar{ 
+  animation-name: html-bar; 
 }
 @keyframes html-bar{
   from{
       width: 5%;
   }
   to{
-      width: 80%;
+      width: 75%;
   }
 }
 
-.bar .py-bar{
-  width: 5%;
-  background-color: #dacdaa;
-  animation: py-bar 5s infinite;
+.py-bar{ 
+  animation-name: py-bar; 
 }
 @keyframes py-bar{
   from{
@@ -85,10 +81,8 @@
   }
 }
 
-.bar .c-bar{
-  width: 5%;
-  background-color: #dacdaa;
-  animation: c-bar 5s infinite;
+.c-bar{ 
+  animation-name: c-bar; 
 }
 @keyframes c-bar{
   from{
@@ -99,10 +93,8 @@
   }
 }
 
-.bar .java-bar{
-  width: 5%;
-  background-color: #dacdaa;
-  animation: java-bar 5s infinite;
+.java-bar{ 
+  animation-name: java-bar; 
 }
 @keyframes java-bar{
   from{
@@ -119,6 +111,5 @@
 }
 .programs .text li{
   text-align: justify;
-  padding: 10px 0;
-  margin-bottom: 10px;
+  padding: 15px 0;
 }

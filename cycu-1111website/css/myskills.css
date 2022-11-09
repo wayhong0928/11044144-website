@@ -1,21 +1,16 @@
-.myskills{
-  background-color: #EEEADA;
-  box-shadow: 3px 3px 5px 5px #ccc;
-  position: relative;
-}
 .myskills h1{
   position: absolute;
   text-align: center;
   top: 20px;
   font-size: 40px;
 }
-.myskills .skills-item{
-  display: flex;
+.skills-item{
   position: relative;
-  width: 25%;
-  margin: 20px;
+  margin: 0 15px;
+  width: 360px;
+  height: 270px;
   border-radius: 20px;
-  box-shadow: 2px 2px 4px 4px #aaa;
+  box-shadow: 2px 2px 3px 3px #ccc;
   transform: translateY(0px);
   transition: 0.5s;
 }
@@ -24,27 +19,23 @@
   transition: 0.5s;
 }
 .skills-item img{
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
-  vertical-align: middle;
 }
-.skills-item .skills-text,
-.skills-item .drop-text{
+.skills-text, .drop-text{
   position: absolute;
-  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   bottom: 0;
-  left: 0;
   padding: 20px;
   border-radius: 20px;
   letter-spacing: 2px;
   text-align: justify;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   transition: 0.5s;
 }
-.skills-item .skills-text{
+.skills-text{
   top: 0;
   background-color: rgba(0,0,0,0.6);
   opacity: 0;
@@ -54,7 +45,7 @@
   border-radius: 20px;
   transition: 0.5s;
 }
-.skills-item .drop-text{
+.drop-text{
   top: 50%;
   z-index: -1;
   transform: translateY(0px);

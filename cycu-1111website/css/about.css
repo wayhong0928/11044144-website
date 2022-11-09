@@ -1,10 +1,6 @@
 .aboutme {
-  width: 1200px;
   margin: auto;
-  background-color: #e0ded2;
-  box-shadow: 3px 3px 5px 5px #ccc;
   padding: 50px;
-  position: relative;
 }
 .aboutme .photos {
   width: 600px;
@@ -23,6 +19,7 @@
   position: absolute;
   top: 120px;
   right: 170px;
+  font-size: 32px;
 }
 .aboutme-article {
   width: 40%;
@@ -35,24 +32,24 @@
   line-height: 2.5;
   font-weight: 500;
 }
-.aboutme-article .first-content{
+.first-content{
   margin-top: -10px;
 }
-.aboutme-article .first-content strong{
+.first-content strong{
   color: #333;
 }
-.aboutme-article .first-content strong a{
+.first-content strong a{
   color:#333 ;
   text-decoration: none;
   font-size: 16px;
   transition: 0.3s;
 }
-.aboutme-article .first-content strong a:hover{
+.first-content strong a:hover{
   color: #e33;
   font-size: 20px;
   transition: 0.3s;
 }
-.aboutme-article .second-content{
+.second-content{
   font-size: 18px;
   padding-top: 20px;
   font-weight: 600;
@@ -61,9 +58,9 @@
   color: #333;
   transition: 0.5s;
 }
-.aboutme-article .second-content:hover{
+.second-content:hover{
   padding-top: 18px;
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(22, 82, 155);
   font-weight: 700;
   letter-spacing: 3px;

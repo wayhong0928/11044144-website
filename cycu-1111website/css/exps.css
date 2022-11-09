@@ -1,8 +1,6 @@
 #exps {
-  width: 1200px;
   height: 100%;
   display: block;
-  background-color: #F5EFE6;
   padding: 20px;
   margin-bottom: 50px;
   box-shadow: 5px 5px 10px 10px #ccc;
@@ -21,10 +19,9 @@
   left: -60px;
   width: 600px;
   height: 80px;
-  background-color: rgb(232, 223, 202);
-  box-shadow: 15px 3px 10px 3px #ccc;
+  background-color: #c9bc99;
+  box-shadow: 15px 5px 10px 0px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
-  /* border-bottom-left-radius: 0;  */
 }
 #exps .title span::before{
   content: "";
@@ -33,26 +30,26 @@
   left: 0;
   width: 40px;
   height: 60px;
-  background-color: rgb(202, 193, 172);
+  background-color: #b8ab89;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
 #exps .title span::after{
   content: "";
   position: absolute;
-  top: 30px;
+  top: 35px;
   left: 0;
-  width: 40px;
+  width: 35px;
   height: 80px;
   z-index: -1;
-  background-color: rgb(232, 223, 202);
+  background-color: #c9bc99;
 }
 #exps .title span i{
   font-weight: 700;
   font-size: 32px;
   letter-spacing: 30px;
-  color: #333;
-  text-shadow: 3px 3px 3px #999;
+  color: #eee;
+  text-shadow: 3px 3px 1px #ccc;
   transform: scale(1);
   transition: 0.5s;
 }
@@ -72,7 +69,6 @@
 }
 .exps-item .pic img {
   width: 100%;
-  vertical-align: middle;
   border-radius: 50px;
   box-shadow: 0 0 3px 3px #aaa;
   transform: scale(1);
@@ -84,7 +80,7 @@
   border-radius: 50px;
   box-shadow: 0 0 5px 5px #aaa;
 }
-.exps-item .exps-text {
+.exps-text {
   width: 55%;
   background-color:rgba(232, 223, 202,0.6);
   padding: 50px 30px;
@@ -94,7 +90,7 @@
   transform: scale(1);
   transition: 0.5s;
 }
-.exps-item .exps-text:hover{
+.exps-text:hover{
   transform: scale(1.05);
   background-color:rgba(232, 223, 202,1);
   border: 1px solid #333;
@@ -111,7 +107,7 @@
   transform: scale(1);
   transition: 0.5s;
 }
-.exps-item .exps-text:hover h2{
+.exps-text:hover h2{
   font-size: 32px;
   transform: scale(1.05);
   transition: 0.5s;
@@ -123,7 +119,7 @@
   transform: scale(1);
   transition: 0.5s;
 }
-.exps-item .exps-text:hover P{
+.exps-text:hover P{
   transform: scale(1.05); 
   transition: 0.5s;
 }
