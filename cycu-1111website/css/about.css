@@ -34,19 +34,19 @@
 }
 .first-content{
   margin-top: -10px;
+  font-size: 16px;
+  transition: 0.3s;
 }
-.first-content strong{
-  color: #333;
-}
-.first-content strong a{
+.first-content a{
   color:#333 ;
   text-decoration: none;
   font-size: 16px;
   transition: 0.3s;
 }
-.first-content strong a:hover{
-  color: #e33;
+.first-content:hover a{
   font-size: 20px;
+  color:#f00;
+  font-weight: 700;
   transition: 0.3s;
 }
 .second-content{

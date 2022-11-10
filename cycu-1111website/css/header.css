@@ -10,13 +10,13 @@
   border-bottom: 1px solid #ccc;
   box-shadow: 0 3px 3px 2px #ccc;
 }
-.main-header .header-nav {
+.header-nav {
   width: 1200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.main-header .header-nav a {
+.header-nav a {
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
@@ -25,11 +25,11 @@
   transform: translateY(0px);
   transition: 0.3s;
 }
-.main-header .header-nav a:hover {
+.header-nav a:hover {
   font-weight: 700;
   transform: translateY(-5px);
 }
-.main-header .header-nav a::after {
+.header-nav a::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -39,7 +39,7 @@
   border-bottom: 1px solid #333;
   transition: 0.3s;
 }
-.main-header .header-nav a:hover::after {
+.header-nav a:hover::after {
   left: 0%;
   right: 0%;
 }
