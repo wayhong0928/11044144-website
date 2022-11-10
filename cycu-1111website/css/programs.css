@@ -1,4 +1,4 @@
-.programs .title{
+.programs .title {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
   left: -20px;
   overflow: hidden;
 }
-.programs .title::before{
+.programs .title::before {
   position: absolute;
   content: "程式技能";
   width: 150%;
@@ -25,7 +25,7 @@
   letter-spacing: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.programs .title::after{
+.programs .title::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -36,80 +36,78 @@
   z-index: 1;
   box-shadow: 290px -230px #c9bc99;
 }
-.programs .bar{
+.programs .bar {
   width: 40%;
 }
 .bar li p{
   padding-left: 50px;
-  color: #333;
 }
-.bar .scroll{
+.bar .scroll {
   text-align: right;
   padding: 10px;
   margin: 15px 0;
-  color: #333;
   border-radius: 20px;
 }
 
-.html-bar, .py-bar, .c-bar, .java-bar{
+.html-bar, .py-bar, .c-bar, .java-bar {
   width: 5%;
   background-color: #dacdaa;
   animation: 5s infinite;
 }
 
-.html-bar{ 
+.html-bar { 
   animation-name: html-bar; 
 }
-@keyframes html-bar{
-  from{
+@keyframes html-bar {
+  from {
       width: 5%;
   }
-  to{
+  to {
       width: 75%;
   }
 }
 
-.py-bar{ 
+.py-bar { 
   animation-name: py-bar; 
 }
-@keyframes py-bar{
-  from{
+@keyframes py-bar {
+  from {
       width: 5%;
   }
-  to{
+  to {
       width: 65%;
   }
 }
 
-.c-bar{ 
+.c-bar { 
   animation-name: c-bar; 
 }
-@keyframes c-bar{
-  from{
+@keyframes c-bar {
+  from {
     width: 5%;
   }
-  to{
+  to {
     width: 65%;
   }
 }
 
-.java-bar{ 
+.java-bar { 
   animation-name: java-bar; 
 }
-@keyframes java-bar{
-  from{
+@keyframes java-bar {
+  from {
       width: 5%;
   }
-  to{
+  to {
       width: 60%;
   }
 }
 
-.programs .text{
+.programs .text {
   width: 40%;
   margin-top: 20px;
 }
-.programs .text li{
+.programs .text li {
   text-align: justify;
   padding: 15px 0;
 }

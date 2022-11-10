@@ -1,5 +1,4 @@
 .aboutme {
-  margin: auto;
   padding: 50px;
 }
 .aboutme .photos {
@@ -15,7 +14,7 @@
   box-shadow: 5px 5px 5px 5px #aaa;
   transition: 0.5s;
 }
-.aboutme  h1 {
+.aboutme h1 {
   position: absolute;
   top: 120px;
   right: 170px;
@@ -30,35 +29,32 @@
   text-align: justify;
   list-style: none;
   line-height: 2.5;
-  font-weight: 500;
 }
-.first-content{
+.first-content {
   margin-top: -10px;
   font-size: 16px;
   transition: 0.3s;
 }
-.first-content a{
-  color:#333 ;
+.first-content a {
+  color:#333;
   text-decoration: none;
-  font-size: 16px;
   transition: 0.3s;
 }
-.first-content:hover a{
+.first-content:hover a {
   font-size: 20px;
   color:#f00;
   font-weight: 700;
   transition: 0.3s;
 }
-.second-content{
+.second-content {
   font-size: 18px;
   padding-top: 20px;
   font-weight: 600;
   font-family: "標楷體";
   text-align: center;
-  color: #333;
   transition: 0.5s;
 }
-.second-content:hover{
+.second-content:hover {
   padding-top: 18px;
   font-size: 22px;
   color: rgb(22, 82, 155);
@@ -66,20 +62,19 @@
   letter-spacing: 3px;
   transition: 0.5s;
 }
-.aboutme-motto{
+.aboutme-motto {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   margin-top: 40px;
   padding: 20px;
-  font-weight: 500;
   border-right: 2px solid #333;
   border-left: 2px solid #333;
   transform: scale(1);
   transition: 0.5s;
 }
-.aboutme-motto:hover{
+.aboutme-motto:hover {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 2px;
